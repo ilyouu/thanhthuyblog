@@ -1,6 +1,6 @@
-## thanhthuyblog
+## Thanh Thùy Blog
 
-## Blog use PHP MySQL
+### Blog sử dụng PHP, MySQL, và một số tool khác
 
-## Phan Văn Bằng
-## 28/12/2021
+### Phan Văn Bằng
+### 28/12/2021
