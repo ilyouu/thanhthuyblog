@@ -22,7 +22,16 @@
 
                     <div class="mainmenu">
 
-                         <!-- navbar-header end -->
+                        <!-- navbar-header end -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                data-target=".navbar-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button> <!-- button end -->
+                        </div>
 
                         <div class="collapse navbar-collapse">
                             <ul class="nav navbar-nav">
@@ -50,10 +59,14 @@
 
                 <div class="col-md-4 col-sm-5">
                     <div class="header_social_icon">
-                        <a href="https://www.facebook.com/nhok.jimmy.18"><i class="fa fa-facebook" style="color: #0d6efd"></i></a>
-                        <a href="https://www.facebook.com/nhok.jimmy.18"><i class="fa fa-twitter" style="color: #0dcaf0"></i></a>
-                        <a href="https://www.facebook.com/nhok.jimmy.18"><i class="fa fa-google-plus" style="color: #dc3545"></i></a>
-                        <a href="https://www.facebook.com/nhok.jimmy.18"><i class="fa fa-tumblr" style="color:#2c0073"></i></a>
+                        <a href="https://www.facebook.com/nhok.jimmy.18"><i class="fa fa-facebook"
+                                style="color: #0d6efd"></i></a>
+                        <a href="https://www.facebook.com/nhok.jimmy.18"><i class="fa fa-twitter"
+                                style="color: #0dcaf0"></i></a>
+                        <a href="https://www.facebook.com/nhok.jimmy.18"><i class="fa fa-google-plus"
+                                style="color: #dc3545"></i></a>
+                        <a href="https://www.facebook.com/nhok.jimmy.18"><i class="fa fa-tumblr"
+                                style="color:#2c0073"></i></a>
                         <form action="#" method="post">
                             <input type="search" placeholder="Tìm kiếm">
                         </form>
