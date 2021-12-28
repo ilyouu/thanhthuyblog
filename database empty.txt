@@ -1,0 +1,69 @@
+CREATE TABLE `gioithieu` (
+  `MaGioiThieu` int(11) NOT NULL,
+  `HinhAnh1` varchar(255) DEFAULT NULL,
+    `HinhAnh2` varchar(255) DEFAULT NULL,
+    `HinhAnh3` varchar(255) DEFAULT NULL,
+`CongViec` varchar(255) NULL,
+  `GioiThieuNgan` longtext COLLATE utf8_unicode_ci NULL,
+    `MoTa` longtext COLLATE utf8_unicode_ci NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 ROW_FORMAT=DYNAMIC;
+
+ALTER TABLE `gioithieu`
+  ADD PRIMARY KEY (`MaGioiThieu`) USING BTREE;
+  
+ALTER TABLE `gioithieu`
+  MODIFY `MaGioiThieu` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
+
+
+
+CREATE TABLE `tag` (
+  `MaTag` int(11) NOT NULL,
+  `TenTag` varchar(255) NULL,
+  `NgayTao` varchar(255) NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 ROW_FORMAT=DYNAMIC;
+
+ALTER TABLE `tag` 
+  ADD PRIMARY KEY (`MaTag`) USING BTREE;
+  
+ALTER TABLE `tag` 
+  MODIFY `MaTag` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
+
+
+
+CREATE TABLE `baiviet` (
+  `MaBaiViet` int(11) NOT NULL,
+  `HinhAnh` varchar(255) DEFAULT NULL,
+  `TieuDe` varchar(255) NULL,
+`DuongDan` varchar(255) NULL,
+`TenTag` varchar(255) NULL,
+  `NoiDung` longtext COLLATE utf8_unicode_ci NULL,
+   `LuotThich` varchar(255) NULL,
+`BinhLuan` varchar(255) NULL,
+`TrangThai` varchar(255) NULL,
+`NgayTao` varchar(255) NULL,
+`NgayCapNhat` varchar(255) NULL
+
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 ROW_FORMAT=DYNAMIC;
+
+ALTER TABLE `baiviet`
+  ADD PRIMARY KEY (`MaBaiViet`) USING BTREE;
+  
+ALTER TABLE `baiviet`
+  MODIFY `MaBaiViet` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
+
+
+
+
+
+
+
+CREATE TABLE `banner` (
+  `Id` int(11) NOT NULL,
+  `HinhAnh` varchar(255) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 ROW_FORMAT=DYNAMIC;
+
+ALTER TABLE `banner`
+  ADD PRIMARY KEY (`Id`) USING BTREE;
+
+ALTER TABLE `banner`
+  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
