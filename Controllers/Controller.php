@@ -32,6 +32,7 @@ class Controller
         $right9days = array();
 		$right9days = $this->model->right9day();
 
+        $titleweb['titleweb'] = '';
 
         $banners = array();
 		$banners = $this->model->banner();
@@ -68,6 +69,7 @@ class Controller
         $paginations = array();
 		$paginations = $this->model->pagination();
         
+        $titleweb['titleweb'] = 'Blog';
 
         $bloglefts = array();
 		$bloglefts = $this->model->blogleft();
@@ -115,6 +117,8 @@ class Controller
             }
         }
 
+        $titleweb['titleweb'] = $baiviet['TieuDe'];
+
         require_once('Views/index.php');
     }
     
@@ -141,7 +145,7 @@ class Controller
         $right9days = array();
 		$right9days = $this->model->right9day();
 
-
+        $titleweb['titleweb'] = 'Giới thiệu';
 
         $baiviets = array();
 		$baiviets = $this->model->trangchu();
@@ -171,7 +175,7 @@ class Controller
         $right9days = array();
 		$right9days = $this->model->right9day();
 
-
+        $titleweb['titleweb'] = 'Liên hệ';
 
         $baiviets = array();
 		$baiviets = $this->model->trangchu();

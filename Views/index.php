@@ -8,7 +8,7 @@
     <meta name="description" content="">
 
     <!-- site title -->
-    <title>Thanh Thùy Blog</title>
+    <title><?php if($titleweb['titleweb'] != ''){echo $titleweb['titleweb'].' | ';} ?>Thanh Thùy Blog</title>
 
     <!-- necessary for mobile device -->
     <meta name="viewport" content="width=device-width, initial-scale=1">

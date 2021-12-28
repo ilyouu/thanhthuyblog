@@ -1,10 +1,11 @@
+<title>test</title>
 <div class="blog_left_content">
 
     <div class="single_blog padding_bottom">
         <div class="single_blog_top">
-            <a href="#"><img src="public/<?=$baiviet['HinhAnh']?>" alt="<?php echo strip_tags($baiviet['TieuDe']);?>"></a>
+            <a href="?blog=<?=$right3blog['MaBaiViet']?>"><img src="public/<?=$baiviet['HinhAnh']?>" alt="<?php echo strip_tags($baiviet['TieuDe']);?>"></a>
             <div class="mark_left">
-                <p><a href="#"><?=$baiviet['TenTag']?></a></p>
+                <p><a href="?blog=<?=$right3blog['MaBaiViet']?>"><?=$baiviet['TenTag']?></a></p>
             </div>
             <div class="mark_right">
                 <i class="fa fa-star"></i>
@@ -13,7 +14,7 @@
         <div class="single_blog_content">
 
             <div class="single_blog_bottom">
-                <h2 class="blog_headings"><a href="single_blog.html"><?=$baiviet['TieuDe']?></a></h2>
+                <h2 class="blog_headings"><a href="?blog=<?=$right3blog['MaBaiViet']?>"><?=$baiviet['TieuDe']?></a></h2>
                 <div class="single_blog_meta">
                     <ul>
                         <li><a href="#"><span class="icon-profile-male"></span>Thanh Thùy</a></li>
