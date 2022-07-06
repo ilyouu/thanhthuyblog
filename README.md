@@ -1,8 +1,11 @@
-## Thanh Thùy Blog
+## Website - Thanh Thùy Blog
 
-### Blog sử dụng PHP, MySQL, và một số tool khác
+### Install:
+```bash
+Link blog: https://thanhthuyblog.000webhostapp.com/
+```
 
-### Dev: Phan Văn Bằng
-### Hoàn thành: 28/12/2021
-
-### website: https://thanhthuyblog.000webhostapp.com/
+## Dev: Phan Văn Bằng
+###### Facebook: fb.com/it0902
+###### Github: github.com/ilyouu
+###### Email: pvbang23092002@gmail.com
