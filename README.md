@@ -1,8 +1,8 @@
 ## Website - Thanh Thùy Blog
 
-### Install:
+### Link blog:
 ```bash
-Link blog: https://thanhthuyblog.000webhostapp.com/
+https://thanhthuyblog.000webhostapp.com/
 ```
 
 ## Dev: Phan Văn Bằng
