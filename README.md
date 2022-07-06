@@ -1,8 +1,7 @@
 ## Website - Thanh Thùy Blog
 
-### Link blog:
 ```bash
-https://thanhthuyblog.000webhostapp.com/
+Link blog: https://thanhthuyblog.000webhostapp.com/
 ```
 
 ## Dev: Phan Văn Bằng
